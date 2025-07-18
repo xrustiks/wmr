@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --accent: rgb(63, 4, 4);
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  line-height: 1.25;
+}
+
+@font-face {
+  font-family: opensans-ns;
+  src: url('../fonts/OpenSansCondensedBold.woff2')
+}
+
+.main-header {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+

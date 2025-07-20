@@ -26,3 +26,23 @@ body {
   overflow: hidden;
 }
 
+.logo {
+  position: absolute;
+  font-size: 3rem;
+  top: 20px;
+  left: 10%;
+  font-weight: 800;
+  span {
+    color: var(--accent);
+  }
+}
+
+.add-new {
+  position: absolute;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 20px 30px;
+  border: 1px solid var(--accent);
+  top: 35px;
+  right: 10%;
+}

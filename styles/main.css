@@ -41,8 +41,11 @@ body {
   position: absolute;
   color: var(--accent);
   text-decoration: none;
-  padding: 20px 30px;
+  padding: 12px 30px;
   border: 1px solid var(--accent);
   top: 35px;
   right: 10%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
 }

@@ -68,3 +68,18 @@ body {
     color: var(--accent);
   }
 }
+
+.card {
+  position: absolute;
+  padding: 10px;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  img {
+    width: 100%;
+
+  }
+  &:hover {
+    opacity: 0.9;
+  }
+}

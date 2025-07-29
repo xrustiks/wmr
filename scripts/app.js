@@ -8,7 +8,7 @@ const padding = 10;
 // Array to keep track of occupied positions
 let occupiedPositions = [];
 
-// Randomizator - auxiliary function
+// Randomizer - auxiliary function for generating random integers
 const getRandomInt = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -34,6 +34,8 @@ const getRandomPositionAndSize = (maxX, maxY, card) => {
   // Amount of attempts to place a card
   let attempts = 0;
   let maxAttempts = 100;
+
+  // Calculate the maximum width and height based on the screen size
   const width = getRandomInt(minWidth, maxWidth);
   const height = Math.floor(width * 2 / 3);
 

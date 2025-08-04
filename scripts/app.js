@@ -10,9 +10,4 @@ const padding = 10;
 // Array to keep track of occupied positions
 let occupiedPositions = [];
 
-
-
-
-
-
-
+export { minWidth, maxWidth, padding, occupiedPositions };

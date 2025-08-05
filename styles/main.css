@@ -95,6 +95,34 @@ body {
   }
 }
 
+.card[data-depth = "1"] {
+  transform: translate(
+    calc(var(--mouse-x) * 15px),
+    calc(var(--mouse-y) * 15px)
+  )
+}
+
+.card[data-depth = "2"] {
+  transform: translate(
+    calc(var(--mouse-x) * 25px),
+    calc(var(--mouse-y) * 25px)
+  )
+}
+
+.card[data-depth = "3"] {
+  transform: translate(
+    calc(var(--mouse-x) * 35px),
+    calc(var(--mouse-y) * 35px)
+  )
+}
+
+.card[data-depth = "4"] {
+  transform: translate(
+    calc(var(--mouse-x) * 45px),
+    calc(var(--mouse-y) * 45px)
+  )
+}
+
 .other-content {
   min-height: 100vh;
   color: #555;
